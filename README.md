@@ -14,3 +14,11 @@ To run it
 docker run --security-opt seccomp=unconfined -it echo
 ```
 
+Inside the container
+
+```bash
+./server &
+./client
+```
+
+And then start echoing!
